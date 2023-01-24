@@ -14,7 +14,7 @@ namespace PatientInformation.Domain.Models
         public string RegisteredBy { get; set; } = string.Empty;
         public DateTime LastUpdateDate { get; set; }
         public string UpdatedBy { get; set; } = string.Empty;
-        public RecordStatus RecordStatus { get; set; }
+        public RecordStatus RecordStatus { get; set; } = RecordStatus.Active;
         public bool IsReadOnly { get; set; }
 
         public BaseEntity()

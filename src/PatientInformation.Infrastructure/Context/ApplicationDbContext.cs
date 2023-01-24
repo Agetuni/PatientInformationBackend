@@ -7,7 +7,7 @@ namespace PatientInformation.Infrastructure.Context
     {
         public ApplicationDbContext(DbContextOptions options) : base(options) { }
         protected override void OnModelCreating(ModelBuilder modelBuilder) { }
-        public DbSet<Country> Country { get; set; }
+        //public DbSet<Country> Country { get; set; }
 
     }
 }
