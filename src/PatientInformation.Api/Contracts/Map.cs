@@ -1,4 +1,6 @@
 ﻿
+using PatientInformation.Api.Contracts.Patients;
+
 namespace PatientInformation.Api.Contracts
 {
     public class Map : Profile
@@ -7,6 +9,7 @@ namespace PatientInformation.Api.Contracts
         {
             CreateMap<Allergy, AllergyResponse>();
             CreateMap<Disease, DiseaseResponse>();
+            CreateMap<Patient, PatientInformationResponse>();
         }
     }
 }

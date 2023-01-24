@@ -13,6 +13,7 @@ namespace PatientInformation.Api.Registrars
             builder.Services.AddScoped(typeof(IRepositoryBase<Allergy>), typeof(RepositoryBase<Allergy>));
             builder.Services.AddScoped(typeof(IRepositoryBase<Disease>), typeof(RepositoryBase<Disease>));
             builder.Services.AddScoped(typeof(IRepositoryBase<NonCommunicableDisease>), typeof(RepositoryBase<NonCommunicableDisease>));
+            builder.Services.AddScoped(typeof(IRepositoryBase<Patient>), typeof(RepositoryBase<Patient>));
 
         }
     }
