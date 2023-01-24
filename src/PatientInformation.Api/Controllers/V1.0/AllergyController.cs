@@ -17,8 +17,8 @@ namespace PatientInformation.Api.Controllers.V1._0
         public async Task<IActionResult> Update([FromBody] AllergyRequest request, long id)
         {
             var result = await _mediator.Send(new UpdateAllergy(id, request.Name, request.Description));
-            var clientClaim = _mapper.Map<AllergyResponse>(result.Payload);
-            return result.IsError ? HandleErrorResponse(result.Errors) : Ok(clientClaim);
+            var allergy = _mapper.Map<AllergyResponse>(result.Payload);
+            return result.IsError ? HandleErrorResponse(result.Errors) : Ok(allergy);
         }
         [HttpDelete("Delete")]
         public async Task<IActionResult> Delete(long id)

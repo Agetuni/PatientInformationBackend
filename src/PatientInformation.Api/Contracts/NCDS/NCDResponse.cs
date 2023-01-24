@@ -1,6 +1,6 @@
 ﻿namespace PatientInformation.Api.Contracts.Allergies
 {
-    public class AllergyResponse
+    public class NCDResponse
     {
         public long Id { get; set; }
         public string Name { get; set; }

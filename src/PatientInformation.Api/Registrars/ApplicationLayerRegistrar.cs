@@ -11,6 +11,8 @@ namespace PatientInformation.Api.Registrars
             builder.Services.AddAutoMapper(typeof(Program), typeof(CreateAllergy));
             builder.Services.AddMediatR(typeof(CreateAllergy));
             builder.Services.AddScoped(typeof(IRepositoryBase<Allergy>), typeof(RepositoryBase<Allergy>));
+            builder.Services.AddScoped(typeof(IRepositoryBase<Disease>), typeof(RepositoryBase<Disease>));
+            builder.Services.AddScoped(typeof(IRepositoryBase<NonCommunicableDisease>), typeof(RepositoryBase<NonCommunicableDisease>));
 
         }
     }

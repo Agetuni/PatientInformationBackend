@@ -6,6 +6,7 @@ namespace PatientInformation.Api.Contracts
         public Map()
         {
             CreateMap<Allergy, AllergyResponse>();
+            CreateMap<Disease, DiseaseResponse>();
         }
     }
 }

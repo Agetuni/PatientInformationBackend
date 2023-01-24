@@ -3,9 +3,9 @@ namespace PatientInformation.Domain.Models
 {
     public class Patient : BaseEntity
     {
-        public string FullName { get; set; }
-        public long DiseaseId { get; set; }//forign key 
-        public Epilepsy Epilepsy { get; set; }
+        public string FullName { get; private set; }
+        public long DiseaseId { get; private set; }//forign key 
+        public Epilepsy Epilepsy { get; private set; }
         public ICollection<PatientAllergies> PatientAllergies { get; set; }
         public ICollection<PatientNCDs> PatientNCDs { get; set; }
         public virtual Disease Disease { get; set; }

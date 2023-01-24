@@ -17,7 +17,7 @@ namespace PatientInformation.Application.Command.Allergies
             var existingAllergy = await _allergyrepository.ExistWhereAsync(x => x.Name == request.Description);
             if (existingAllergy)
             {
-                result.AddError(ErrorCode.RecordFound, "Allergyis already registerd.");
+                result.AddError(ErrorCode.RecordFound, "Allergy already registerd.");
                 return result;
             }
             var allergy = Allergy.Create(request.Name, request.Description);
