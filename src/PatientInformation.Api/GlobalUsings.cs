@@ -7,3 +7,7 @@ global using PatientInformation.Api.Filters;
 global using Microsoft.AspNetCore.Http;
 global using Microsoft.AspNetCore.Mvc;
 global using PatientInformation.Domain.Common;
+global using AutoMapper;
+global using PatientInformation.Application.Model;
+global using PatientInformation.Api.Contracts.Allergies;
+global using PatientInformation.Domain.Models;

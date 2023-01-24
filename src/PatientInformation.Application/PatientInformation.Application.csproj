@@ -18,9 +18,4 @@
     <ProjectReference Include="..\PatientInformation.Infrastructure\PatientInformation.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Command\" />
-    <Folder Include="Query\" />
-  </ItemGroup>
-
 </Project>

@@ -31,9 +31,4 @@
     <ProjectReference Include="..\PatientInformation.Infrastructure\PatientInformation.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Contracts\" />
-    <Folder Include="Controllers\V1.0\" />
-  </ItemGroup>
-
 </Project>
