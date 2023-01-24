@@ -6,8 +6,8 @@ namespace PatientInformation.Domain.Models
         public string FullName { get; private set; }
         public long DiseaseId { get; private set; }//forign key 
         public Epilepsy Epilepsy { get; private set; }
-        public ICollection<PatientAllergies> PatientAllergies { get; set; }
-        public ICollection<PatientNCDs> PatientNCDs { get; set; }
+        public ICollection<PatientAllergies> PatientAllergies { get; set; } = new List<PatientAllergies>();
+        public ICollection<PatientNCDs> PatientNCDs { get; set; } = new List<PatientNCDs>();
         public virtual Disease Disease { get; set; }
 
         public static Patient Create(string name, long diseaseId, Epilepsy epilepsy)

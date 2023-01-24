@@ -10,6 +10,10 @@ namespace PatientInformation.Api.Contracts
             CreateMap<Allergy, AllergyResponse>();
             CreateMap<Disease, DiseaseResponse>();
             CreateMap<Patient, PatientInformationResponse>();
+            CreateMap<NonCommunicableDisease, NCDResponse>();
+
+            CreateMap<PatientAllergies, PatientAllergyResponse>();
+            CreateMap<PatientNCDs, PatientNCDResponse>();
         }
     }
 }
