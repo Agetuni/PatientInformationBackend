@@ -1,6 +1,4 @@
-﻿using PatientInformation.Domain.Common;
-
-namespace PatientInformation.Domain.Models
+﻿namespace PatientInformation.Domain.Models
 {
     public class BaseEntity
     {

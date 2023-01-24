@@ -1,6 +1,4 @@
-﻿using PatientInformation.Domain.Validator;
-
-namespace PatientInformation.Domain.Models
+﻿namespace PatientInformation.Domain.Models
 {
     public class Disease : BaseEntity
     {
