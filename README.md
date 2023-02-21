@@ -4,7 +4,7 @@
 
 **[Patient Information API]**  is an api that can register masterdatas like diseases, non-communicable diseases and allergies. Within the masterdat maintained it can handle patient operational data to be stroed.
 
-<a href="https://github.com/Agetuni/PatientInformationFrontend">Click here to see the Front-END project</a>
+<a href="https://github.com/Agetuni/PatientInformationFrontend">Click here to see the Front End project</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
